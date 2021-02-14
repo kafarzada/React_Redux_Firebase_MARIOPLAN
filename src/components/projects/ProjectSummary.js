@@ -2,8 +2,8 @@ import React from 'react'
 
 const ProjectSummary = (props) => {
     return (
-    <div className="card z-depth-0 project-summary">
-        <div className="card-content grey-text text-darken-3">
+    <div className="card  #616161 grey darken-2">
+        <div className="card-content white-text">
             <span className="card-title">{props.project.title}</span>
             <p>{props.project.content}</p>
             <p className="grey-text">3rd Septemper, 2em</p>
